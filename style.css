@@ -1,0 +1,69 @@
+
+body{
+  background: lightblue;
+}
+
+h2{
+  color: red;
+}
+
+.pageheader{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  min-width: 500px;
+  width: 100%;
+}
+
+.pageheader div{
+  display: inline-block;
+}
+
+.headertxt{
+  padding: 70px 10px 30px 10px;
+  z-index: 2;
+}
+
+.headerimg{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: 1;
+    padding: 20px 10px;
+}
+
+.TopBar{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  min-width: 500px;
+  display: inline-block;
+  width: 100%;
+}
+
+.TopBar div{
+  border: none;
+  display: inline-block;
+}
+
+.header{
+  background-color: transparent;
+  float: left;
+  text-align: left;
+  max-width: 100%;
+  padding: 10px;
+  height: 100px;
+}
+
+.search, .login{
+  float: right;
+  border-radius: 20px;
+  margin: 10px;
+  padding-top: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px black;
+  background-color: white;
+  font-size: 20px;
+  width: 200px;
+}
