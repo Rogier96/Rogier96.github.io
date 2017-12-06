@@ -11,5 +11,8 @@ $(document).ready(() => {
         alert("Your trade request is send!");
   })
 
+  $('.donbut').on('click', () => {
+        alert("thanks for donating your present!");
+      })
 
 });
