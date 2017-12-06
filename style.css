@@ -1,3 +1,5 @@
+{border: 1px solid red !important;
+}*/
 
 body{
   background: lightblue;
@@ -7,6 +9,45 @@ h2{
   color: red;
 }
 
+h1{
+  font-size: 50px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.card{
+  width: 300px;
+  float: left;
+  margin: 20px;
+}
+
+.trade{
+}
+
+.donbut{
+  margin: 20px;
+  font-size: 24px;
+}
+
+.maintextbox{
+background-color: rgba(34, 139, 34, .8);
+text-align:center;
+}
+
+.donate{
+background-color: rgba(34, 139, 34, .6);
+text-align:center;
+}
+
+.maintext{
+  font-size: 20px;
+  margin: auto;
+  color: white;
+  min-width: 500px;
+  max-width: 800px;
+  padding: 20px;
+}
+
 .pageheader{
   background-color: white;
   border: 1px solid black;
@@ -14,6 +55,13 @@ h2{
   display: inline-block;
   min-width: 500px;
   width: 100%;
+  background-image: url("http://www.spiceoflifecuisine.co.uk/images/header3.gif");
+  background-position: center;
+  background-size: auto 1700px;
+}
+
+.form-inline{
+  float: right;
 }
 
 .pageheader div{
@@ -21,14 +69,14 @@ h2{
 }
 
 .headertxt{
-  padding: 70px 10px 30px 10px;
+  padding: 280px 10px 80px 40px;
   z-index: 2;
 }
 
 .headerimg{
     position: absolute;
-    right: 3px;
-    top: 3px;
+    right: 10px;
+    top: 10px;
     z-index: 1;
     padding: 20px 10px;
 }
@@ -45,6 +93,8 @@ h2{
 .TopBar div{
   border: none;
   display: inline-block;
+  float: right;
+  padding: 5px 50px 5px 20px;
 }
 
 .header{
@@ -53,7 +103,6 @@ h2{
   text-align: left;
   max-width: 100%;
   padding: 10px;
-  height: 100px;
 }
 
 .search, .login{
