@@ -15,4 +15,8 @@ $(document).ready(() => {
         alert("thanks for donating your present!");
       })
 
+  $('.sbt').on('click', () => {
+        alert("The Search button does not work yet, check later!");
+      })
+
 });
